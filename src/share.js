@@ -22,9 +22,9 @@ const KakaoShare = () => {
         window.Kakao.Link.sendDefault({
             objectType: 'feed',
             content: {
-                title: '딸기 치즈 케익',
-                description: '#케익 #딸기 #삼평동 #카페 #분위기 #소개팅',
-                imageUrl: 'http://mud-kage.kakao.co.kr/dn/Q2iNx/btqgeRgV54P/VLdBs9cvyn8BJXB3o7N8UK/kakaolink40_original.png',
+                title: '그 때 그  시절의 난 어떤 학생이었을까?',
+                description: '95년생 ~ 03년생이 하는 추억의 테스트',
+                imageUrl: '/img/home.png',
                 link: {
                     mobileWebUrl: url,
                     webUrl: url,
