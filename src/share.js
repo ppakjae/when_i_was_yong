@@ -39,15 +39,15 @@ const KakaoShare = () => {
                 {
                     title: '웹으로 보기',
                     link: {
-                        mobileWebUrl: url,
-                        webUrl: url,
+                        mobileWebUrl: 'https://when-i-was-young.netlify.app/',
+                        webUrl: 'https://when-i-was-young.netlify.app/',
                     },
                 },
                 {
                     title: '앱으로 보기',
                     link: {
-                        mobileWebUrl: url,
-                        webUrl: url,
+                        mobileWebUrl: 'https://when-i-was-young.netlify.app/',
+                        webUrl: 'https://when-i-was-young.netlify.app/',
                     },
                 },
             ],
@@ -57,7 +57,7 @@ const KakaoShare = () => {
     return (
 
         <div className="share-node" onClick={shareKakao}>
-            <p>결과 공유하기</p>
+            <p>테스트 공유하기</p>
         </div>
     );
 };
