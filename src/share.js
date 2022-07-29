@@ -11,7 +11,7 @@ const KakaoShare = () => {
         if (window.Kakao) {
             const kakao = window.Kakao;
             if (!kakao.isInitialized()) {
-                kakao.init('92ad0bfe1cae083123ac9a67501afcdd');
+                kakao.init('771c2797266598d04b8be25dfb990250');
             }
         }
     };
